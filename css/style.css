@@ -826,12 +826,23 @@ margin-bottom: 48px;
 }
 }
 @media (min-width: 1280px)  {
-  .sessions-div{
-    flex-wrap: wrap;
+ 
+  .hotel-details{
+  margin-inline-end: 200px;
+  width: 500px;
   }
-  /* .prev-orders{
-    margin-top: 40px;
-  } */
+  .hotel-detail-text {
+    width: auto;
+}
+.prev-orders{
+  width: 100%;
+}
+.days-tabs .nav-link{
+  margin-inline-end: 3px;
+}
+.time{
+  width: 100%;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-header .img-logo img {
