@@ -653,6 +653,180 @@ margin-bottom: 48px;
 
 /*                        sessions div                                     */
 
+/*                       bg-baby-blue                                       */
+.bg-baby-blue{
+  background-color: #FAFAFA;
+  border-radius: 12px;
+  padding: 12px 32px 40px;
+}
+.form-flex{
+  display: flex;
+  justify-content: space-between;
+ 
+  gap:0 122px;
+}
+.form-label{
+  color: var(--main-color);
+  font-size: 32px;
+  text-align: start;
+  font-weight: 700;
+  font-family: Simplified Arabic;
+  margin: 0 0 13px;
+  display: flex;
+}
+.form-input{
+  width: 450px;
+height: 80px;
+border-radius: 12px;
+border: 2px solid var(--main-color);
+border-right: 5px solid var(--main-hover);
+outline: none;
+transition: 0.5s;
+display: flex;
+align-items: center;
+padding: 0 15px;
+margin-bottom: 24px;
+font-size: 20px;
+}
+.form-input:focus{
+  border:2px solid var(--main-hover);
+  border-right: 5px solid var(--main-color);
+}
+.form-textarea{
+  width: 450px;
+height: 189px;
+border-radius: 12px;
+border: 2px solid var(--main-color);
+border-right: 5px solid var(--main-hover);
+outline: none;
+transition: 0.5s;
+display: flex;
+align-items: center;
+padding:  15px;
+margin-bottom: 24px;
+font-size: 20px;
+}
+.form-textarea:focus{
+  border:2px solid var(--main-hover);
+  border-right: 5px solid var(--main-color);
+}
+.more{
+  font-size: 24px;
+  font-family: Simplified Arabic;
+  color: var(--main-color);
+  transition: 0.5s;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.more:hover{
+  text-decoration: none;
+  color: var(--main-hover);
+}
+.upload__btn {
+
+  outline: none;
+ 
+    display: flex;
+    align-items: center;
+  white-space: nowrap;
+    font-size: 20px;
+   
+ 
+   
+    position: relative;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.upload__img-wrap {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+
+}
+
+.upload__img-box {
+  width: 80px;
+ 
+ 
+}
+.img-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100%;
+}
+.upload__img-close {
+  width: 20px;
+  height: 20px;
+  
+  background-color: rgb(251, 63, 63);
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+}
+.upload__img-close:after {
+  content: "";
+  font-size: 16px;
+  color: #fff;
+  font-family: "Line Awesome Free";
+  font-weight: 700;
+}
+.upload__inputfile{
+  opacity: 0;
+  overflow: hidden;
+}
+.upload-images {
+  width: 110px;
+  height: 62px;
+  background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #E9BF2C;
+
+
+
+  color: var(--main-color);
+  font-size: 20px;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  inset-inline-end: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.send-btn{
+  width: 450px;
+  background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #E9BF2C;
+
+  ;
+  height: 88px;
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: Simplified Arabic;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+  border-radius: 12px;
+}
+.send-btn:focus{
+  outline: none;
+}
+
+/*                       bg-baby-blue                                       */
+
 
 
 
@@ -854,9 +1028,24 @@ margin-bottom: 48px;
   .sessions-div{
     margin: 32px 17px 42px;
   }
-  
+  .form-flex{
+    flex-wrap: wrap;
+    gap:0;
+    width: 100%;
+  }
+  .form-part{
+    width: 100%;
+  }
+  .form-input{
+    width: 100%;
+  }
 
-
+.form-textarea{
+  width: 100%;
+}
+.send-btn{
+  width: 100%;
+}
   .nav-header li {
     margin: 0 10px;
   }
@@ -869,7 +1058,27 @@ margin-bottom: 48px;
   body {
     position: relative;
   }
-
+.bg-baby-blue{
+  margin: 20px;
+}
+.form-flex{
+  flex-wrap: wrap;
+  gap: 0;
+  width: 100%;
+ 
+}
+.send-btn{
+  width: 100%;
+}
+.form-input{
+  width: 100%;
+}
+.form-textarea{
+  width: 100%;
+}
+.form-part{
+  width: 100%;
+}
   .show-icons {
     position: relative;
     font-size: 24px;
