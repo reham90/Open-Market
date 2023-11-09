@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>open market / new order</title>
+    <title>open market / recieve-offers</title>
     
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -50,13 +50,13 @@
                   الصفحة الرئيسية
                 </a>
               </li>
-              <li class="active">
+              <li >
                 <a href="new-order.html" class="menu-link">
                   <img src="images/menu-icons/02.png" alt="menu icon">
                   طلب جديد
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="recieve-offers.html" class="menu-link">
                   <img src="images/menu-icons/03.png" alt="menu icon">
                    استقبال العروض 
@@ -157,82 +157,83 @@
   </div>
   <!-- end-message-bar-->
  <!-- start sessions-div-->
- <div class="sessions-div bg-baby-blue">
-  
+ <div class="sessions-div bg-baby-blue flex-wrap">
+  <div class="det-title">
+    <h3 class="details-title">
+      تفاصيل العرض
+    </h3>
+  </div>
+ 
+ 
 <form class="form-flex">
 <div class="form-part">
   <label class="form-label">
+   اسم التاجر
+  </label>
+  <input type="text" class="form-input" placeholder="عمر هاني منصور" disabled>
+  <label class="form-label">
+  رقم التليفون
+  </label>
+  <input type="number" class="form-input" placeholder="0100000000" disabled>
+  <label class="form-label">
     اسم الصنف
-  </label>
-  <input type="text" class="form-input">
-  <label class="form-label">
-   الكمية المطلوبة
-  </label>
-  <input type="text" class="form-input">
-  <label class="form-label">
-   وصف المنتج
-  </label>
-  <textarea type="text" class=" form-textarea"></textarea>
-  <label class="form-label">
-   تاريخ الإستلام
    </label>
-   <input type="date" class="form-input">
+   <input type="text" class="form-input" placeholder="لحم عجل بتلو" disabled>
    <label class="form-label">
-   إضافة شرط
-  </label>
-  <input type="text" class="form-input">
-  <a href="#" class="more">
-    + إضافة المزيد
-  </a>
+   الفئة
+   </label>
+   <input type="text" class="form-input" placeholder="لحوم" disabled>
+   <label class="form-label">
+   صور المنتج
+   </label>
+   <ul class="order-photos">
+    <li>
+      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
+    </li>
+    <li>
+      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
+    </li>
+    <li>
+      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
+    </li>
+    <li>
+      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
+    </li>
+   </ul>
+  
+  
+   
+  
 </div>
 <div class="form-part">
   <label class="form-label">
-   الفئة
-  </label>
-  <select class="form-input">
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-  </select>
-  <label class="form-label">
-  نوع الدفع
-  </label>
-  <select class="form-input">
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-      </select>
-  <label class="form-label">
-   إرفاق صور
-  </label>
-  <div class="upload__box">
-    <div class="upload__btn-box">
-       <label class="upload__btn form-input" id="file" for="customFile">
-       
-       <b class="upload-images">رفع ملف</b>
-       <input type="file"  class="upload__inputfile" id="customFile" >
-       </label>
-    </div>
-    <div class="upload__img-wrap"></div>
- </div>
-  <label class="form-label">
-  إرفاق ملف
+   العنوان
    </label>
-   <div class="upload__box">
-    <div class="upload__btn-box">
-       <label class="upload__btn form-input" id="file-2" for="customFile2">
-       
-       <b class="upload-images">رفع ملف</b>
-       <input type="file"  class="upload__inputfile" id="customFile2" >
+   <input type="text" class="form-input" placeholder="القاهرة - زهراء مدينة نصر" disabled>
+   <label class="form-label">
+    تاريخ الإستلام
+    </label>
+    <input type="text" class="form-input" placeholder="7 أكتوبر 2023" disabled>
+    <label class="form-label">
+    الكمية
+      </label>
+      <input type="text" class="form-input" placeholder="10 كيلو" disabled>
+  
+      <label class="form-label">
+        وصف المنتج
        </label>
-    </div>
-    <div class="upload__img-wrap"></div>
- </div>
-  <button type="submit" class="send-btn">
-    إرسال الطلب
-  </button>
+       <textarea type="text" class=" form-textarea" placeholder="لحم عجل 10 كيلو" disabled></textarea>
+ 
+ 
+  
+       <div class="order-btns flex-start">
+        <a href="#" class="accept-btn">
+          قبول
+        </a>
+        <a href="#" class="cancel-btn">
+          رفض
+        </a>
+      </div>
 </div>
 </form>
   </div>
