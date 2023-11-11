@@ -911,9 +911,21 @@ color: var(--main-color);
 }
 .cancel-btn{
   background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #FF3849;
-
-
-
+  width: 156px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Simplified Arabic;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--main-color);
+outline: none;
+border: 0;
+}
+.cancel-btn:focus{
+  outline: none;
 }
 .pagination-row{
   display: flex;
@@ -1001,6 +1013,118 @@ margin:0 0 30px;
 }
 .flex-start{
   justify-content: flex-start;
+}
+.modal-content{
+  border-radius: 44px;
+  background-color: #FAFAFA;
+  padding: 40px;
+
+  
+}
+.modal-header{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.modal-title{
+  font-family: Simplified Arabic;
+font-size: 25px;
+color: var(--main-color);
+font-weight: 700;
+}
+.modal-header .close span{
+font-size: 37px;
+  width: 32px;
+  height: 32px;
+  color: var(--main-color);
+}
+.modal-header .close{
+  margin: 0;
+  padding: 0;
+
+}
+.check{
+  background-color: #fff;
+  border: 4px solid #CFE0F0;
+  outline: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-inline-end: 16px;
+}
+.check:checked::after{
+  content: "";
+    font-family: "Line Awesome Free";
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    background-color: var(--main-color);
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+   border: 4px solid var(--main-color);
+   position: absolute;
+   inset-inline-start: -4px;
+}
+.check-div{
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.modal-header .close:focus{
+  outline: none;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+ .table thead {
+  background: var(--main-color);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Simplified Arabic;
+  height: 45px;
+}
+.table thead th {
+  border: 0;
+  font-size: 22px;
+  font-family: Simplified Arabic;
+  padding: 14px 0.75rem;
+  text-align: start;
+  font-weight: 700;
+}
+ .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+ .table-striped tbody tr:nth-of-type(even) {
+  background-color: #fbfbfb;
+}
+ .table td {
+  font-size: 18px;
+  color: #808080;
+  border: 0;
+  padding: 14px 0.75rem;
+  text-align: start;
+}
+.prev-tab-content{
+  width: 100%;
+}
+.order-icon{
+  display: flex;
+  justify-content: center;
 }
 /*                                 recieve-offers                                  */
 
