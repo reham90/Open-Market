@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 } */
 body {
-  font-family: "Simplified Arabic";
+  font-family: "Neo Sans Arabic Regular";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -140,14 +140,14 @@ html[dir="ltr"] .progress-bar {
 }
 .menu-link {
   color: #fff;
-  font-size: 32px;
+  font-size: 24px;
   text-transform: capitalize;
   transition: all 0.3s ease-in-out;
  display: flex;
  align-items: center;
- font-family: Simplified Arabic;
+ 
 
- font-weight: 700;
+ font-family: "NeoSansArabicMedium";
  
 }
 .big-menu li img{
@@ -320,17 +320,17 @@ html[dir="ltr"] .progress-bar {
 /*          sessions div                                     */
 .sessions-div{
   display: flex;
-margin: 32px 20px 42px;
+margin: 32px 0 42px;
   ;
 }
 .hotel-details{
   background-color: #fff;
- padding: 0 32px 0 0;
-height: 264px;
+ padding: 0 20px 0 0;
+
 border-radius: 16px;
 display: flex;
 align-items: center;
-margin-bottom: 40px;
+margin-bottom: 10px;
 }
 .left-side{
   width: 100%;
@@ -350,10 +350,9 @@ margin-bottom: 40px;
 }
 .hotel-name-2{
   color: var(--main-color);
-  font-size: 26px;
+  font-size: 22px;
   margin: 0 0 13px;
-  font-family: Simplified Arabic;
-  font-weight: 700;
+ font-family: "NeoSansArabicMedium";
   text-align: start;
 }
 .hotel-note-2{
@@ -362,19 +361,16 @@ margin-bottom: 40px;
   display: flex;
   margin-bottom: 13px;
 }
-.hotel-detail-text{
-  width:190px;
-}
+
 .sellers-div{
-  padding: 32px 56px 100px;
-  background-color: #FBFBFB;;
+  padding: 32px 20px ;
+  background-color: #fff;
   border-radius: 16px;
 }
 .sellers-title{
   color: var(--main-color);
-  font-size: 26px;
-  font-family: Simplified Arabic;
-  font-weight: 700;
+  font-size: 24px;
+  font-family: "NeoSansArabicMedium";
   text-align: start;
   display: flex;
   align-items: center;
@@ -446,25 +442,25 @@ border-radius: 50%;
 .prev-orders{
   background-color: #fff;
   border-radius: 10px;
-  margin: 0 10px;
+ margin-inline-start: 10px;
   padding: 24px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+ 
+  margin-bottom: 10px;
 }
 .prev-title{
   color: var(--main-color);
-  font-size: 26px;
+  font-size: 24px;
   margin: 0 0 33px;
-  font-weight: 700;
-  font-family: Simplified Arabic;
+ font-family: "NeoSansArabicMedium";
 }
 .days-tabs{
   border:0;
   border-bottom: 2px solid #EDEDFF;
   padding-bottom: 25px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 .days-tabs .nav-link{
   border: 0;
@@ -488,7 +484,7 @@ font-weight: 600;
 }
 .days-tabs .nav-link p{
   color: var(--main-color);
-  font-family: Simplified Arabic;
+ 
   font-size: 12px;
   margin: 0;
 }
@@ -522,8 +518,8 @@ margin: 0;
   display: flex;
   align-items: center;
   border-bottom: 2px solid #EDEDFF;
-  padding-bottom:32px;
-  margin-bottom: 32px;
+  padding-bottom:20px;
+  margin-bottom: 20px;
 }
 .clock{
   color: rgba(22, 32, 106, 0.66);
@@ -583,24 +579,24 @@ text-align: start;
 .all-orders{
   background-color: #fff;
   border-radius: 10px;
-  margin: 10px 10px 0 0;
-  padding: 32px;
+ margin-inline-start: 10px;
+  padding: 25px 20px;
   display: flex;
   flex-direction: column;
   
-  width: 100%;
+ 
 }
 .all-orders-title{
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   align-items: center;
   justify-content: space-between;
 }
 .order-title{
   color: var(--main-color);
-  font-family: Simplified Arabic;
+  
   font-size: 24px;
-  font-weight: 700;
+ font-family: "NeoSansArabicMedium";
   margin: 0;
 }
 .orders-no{
@@ -614,7 +610,7 @@ flex-shrink: 0;
 border: 1px solid var(--main-color);
 color: var(--main-color);
 font-size: 16px;
-font-family: Simplified Arabic;
+
 }
 .orders-no img{
   margin-inline-end: 10px;
@@ -629,8 +625,7 @@ font-family: Simplified Arabic;
   align-items: center;
   color: var(--main-color);
   font-size: 15px;
-font-family: Simplified Arabic;
-font-weight: 700;
+font-family: "NeoSansArabicMedium";
 text-align: start;
 margin-bottom: 48px;
 }
@@ -657,7 +652,7 @@ margin-bottom: 48px;
 .bg-baby-blue{
   background-color: #FAFAFA;
   border-radius: 12px;
-  padding: 12px 32px 40px;
+ padding: 20px;
 }
 .form-flex{
   display: flex;
@@ -1594,19 +1589,17 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
   }
   .hotel-details{
     padding: 20px 20px;
+    padding-inline-end: 0;
     flex-wrap: wrap;
-    height: auto;
-    width: 100%;
+   
 }
-.sellers-div{
-  width: 100%;
-}
+
 .hotel-detail-text{
   width: 100%;
 }
 .sessions-div{
-  padding: 32px 0px;
-  margin: 0 20px;
+  
+ 
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -1618,7 +1611,7 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
   display: none;
 }
 .prev-orders{
-  margin: 40px 0 20px;
+  margin: 10px 0 ;
   padding: 20px 10px;
   width: 100%;
 }
@@ -1658,11 +1651,12 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
 .hotel-details{
   padding: 20px 20px;
   flex-wrap: wrap;
-  height: auto;
-  width: 400px;
+
+ 
 }
-.prev-orders{
-  width: 315px;
+
+.width100{
+  width: 100%;
 }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1671,21 +1665,14 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
   flex-direction: column;
 }
 .prev-orders{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 }
 @media (min-width: 1280px)  {
  
-  .hotel-details{
-  margin-inline-end: 200px;
-  width: 500px;
-  }
-  .hotel-detail-text {
-    width: auto;
-}
-.prev-orders{
-  width: 100%;
-}
+ 
+
+
 .days-tabs .nav-link{
   margin-inline-end: 3px;
 }
