@@ -1463,6 +1463,24 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
   cursor: pointer;
   transition: .2s;
 }
+.notification-block{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.notification-block span{
+  font-family: "Roboto";
+  color: var(--main-hover);
+  display: flex;
+  margin-bottom: 20px;
+}
+.notification-block p{
+  margin: 0;
+    color: var(--main-color);
+    font-family: Simplified Arabic;
+    line-height: 1.75;
+    font-size: 18px;
+}
 
 /*                                 recieve-offers                                  */
 
@@ -1481,6 +1499,9 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
   }
   .floating-chat{
     width: 100%;
+  }
+  .noti .bg-baby-blue{
+    margin-bottom: 15px;
   }
   .msg-block{
   display: block;
