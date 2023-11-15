@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>open market / new order</title>
+    <title>open market / settings</title>
     
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -50,13 +50,13 @@
                   الصفحة الرئيسية
                 </a>
               </li>
-              <li class="active">
+              <li >
                 <a href="new-order.html" class="menu-link">
                   <img src="images/menu-icons/02.png" alt="menu icon">
                   طلب جديد
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="recieve-offers.html" class="menu-link">
                   <img src="images/menu-icons/03.png" alt="menu icon">
                    استقبال العروض 
@@ -156,86 +156,79 @@
     </div>
   </div>
   <!-- end-message-bar-->
- <!-- start sessions-div-->
- <div class="container">
+  <div class="container">
 
  
- <div class="sessions-div bg-baby-blue">
-  
+ <!-- start sessions-div-->
+ <div class="sessions-div bg-baby-blue flex-wrap">
+  <div class="det-title">
+    <h3 class="details-title">
+      الإعدادات
+    </h3>
+  </div>
+ 
+ 
 <form class="form-flex">
 <div class="form-part">
   <label class="form-label">
-    اسم الصنف
+ الإسم
   </label>
-  <input type="text" class="form-input">
+  <input type="text" class="form-input" placeholder="عمر هاني منصور" disabled>
   <label class="form-label">
-   الكمية المطلوبة
+  الموقع الإلكتروني
   </label>
-  <input type="text" class="form-input">
+  <input type="number" class="form-input" placeholder="rehamadel344@gmail.com" disabled>
   <label class="form-label">
-   وصف المنتج
-  </label>
-  <textarea type="text" class=" form-textarea"></textarea>
-  <label class="form-label">
-   تاريخ الإستلام
+    وصف الشركة
    </label>
-   <input type="date" class="form-input">
+   <textarea type="text" class=" form-textarea" placeholder="وصف الشركة" disabled></textarea>
    <label class="form-label">
-   إضافة شرط
-  </label>
-  <input type="text" class="form-input">
-  <a href="#" class="more">
+   الفروع
+   </label>
+   <input type="text" class="form-input" placeholder="فرع زهراء مدينة نصر" disabled>
+   <a href="#" class="more">
     + إضافة المزيد
   </a>
-</div>
-<div class="form-part">
-  <label class="form-label">
-   الفئة
-  </label>
-  <select class="form-input">
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-<option>اختر من القائمة</option>
-  </select>
-  <label class="form-label">
-  نوع الدفع
-  </label>
-  <select class="form-input">
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-    <option>اختر من القائمة</option>
-      </select>
-  <label class="form-label">
-   إرفاق صور
-  </label>
-  <div class="upload__box">
-    <div class="upload__btn-box">
-       <label class="upload__btn form-input" id="file" for="customFile">
-       
-       <b class="upload-images">رفع ملف</b>
-       <input type="file"  class="upload__inputfile" id="customFile" >
-       </label>
-    </div>
-    <div class="upload__img-wrap"></div>
- </div>
-  <label class="form-label">
-  إرفاق ملف
+   <label class="form-label">
+   اللوجو
    </label>
-   <div class="upload__box">
-    <div class="upload__btn-box">
-       <label class="upload__btn form-input" id="file-2" for="customFile2">
-       
-       <b class="upload-images">رفع ملف</b>
-       <input type="file"  class="upload__inputfile" id="customFile2" >
-       </label>
-    </div>
-    <div class="upload__img-wrap"></div>
- </div>
-  <button type="submit" class="send-btn">
-    إرسال الطلب
-  </button>
+   
+    
+      <img class="img-fluid d-flex" src="images/order-details/01.png" alt="order photo">
+   
+    
+  
+  
+  
+   
+  
+</div>
+<div class="form-part w-40">
+  <label class="form-label">
+   الإيميل
+    </label>
+    <input type="text" class="form-input" placeholder="rehamadel344@gmail.com" disabled>
+  <label class="form-label">
+   العنوان
+   </label>
+   <input type="text" class="form-input" placeholder="القاهرة - زهراء مدينة نصر" disabled>
+   <label class="form-label">
+   رقم التليفون
+    </label>
+    <input type="text" class="form-input" placeholder="010000000000" disabled>
+    <label class="form-label">
+    التجار المفضلة
+      </label>
+      <input type="text" class="form-input" placeholder="التجار المفضلة" disabled>
+  
+      <label class="form-label">
+        التجار المحظورة
+          </label>
+          <input type="text" class="form-input" placeholder="التجار المحظورة" disabled>
+ 
+ 
+  
+     
 </div>
 </form>
   </div>
