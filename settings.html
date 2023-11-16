@@ -56,7 +56,7 @@
                   طلب جديد
                 </a>
               </li>
-              <li class="active">
+              <li >
                 <a href="recieve-offers.html" class="menu-link">
                   <img src="images/menu-icons/03.png" alt="menu icon">
                    استقبال العروض 
@@ -92,7 +92,7 @@
                   حسابي
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="settings.html" class="menu-link"> 
                   <img src="images/menu-icons/09.png" alt="menu icon">
                   إعدادات
@@ -216,16 +216,286 @@
    رقم التليفون
     </label>
     <input type="text" class="form-input" placeholder="010000000000" disabled>
-    <label class="form-label">
-    التجار المفضلة
-      </label>
-      <input type="text" class="form-input" placeholder="التجار المفضلة" disabled>
-  
-      <label class="form-label">
-        التجار المحظورة
-          </label>
-          <input type="text" class="form-input" placeholder="التجار المحظورة" disabled>
- 
+   
+      <button type="button" class="send-btn mb-20" data-toggle="modal" data-target="#exampleModalCenter">
+        التجار المفضلة
+        </button>
+      
+         <!-- Modal -->
+ <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered seller-modal" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+       
+         <h5 class="modal-title sellers-title" id="exampleModalLongTitle">
+          <img src="images/sellers/01.png" alt="star">
+          التجار المفضلين
+        </h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+        <div class="sellers-div">
+          
+          <div class="seller-row">
+            <div class="seller-details">
+              <div class="pink-block">
+                <span class="seller-no">
+                  #1
+                </span>
+              </div>
+              <div class="seller-detail-text">
+                <h2 class="hotel-name-2 fs22 mb5">
+                  اسم التاجر
+                </h2>
+                <span class="hotel-note-2 fs16 mb5">
+                 333 طلب
+                </span>
+                <span class="hotel-note-2 fs16">
+                  details about the seller
+                </span>
+              </div>
+            </div>
+            <ul class="sellers-rate">
+              <li><i class="las la-star "></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+             
+            </ul>
+          </div>
+          <div class="seller-row">
+            <div class="seller-details">
+              <div class="pink-block">
+                <span class="seller-no">
+                  #2
+                </span>
+              </div>
+              <div class="seller-detail-text">
+                <h2 class="hotel-name-2 fs22 mb5">
+                  اسم التاجر
+                </h2>
+                <span class="hotel-note-2 fs16 mb5">
+                 333 طلب
+                </span>
+                <span class="hotel-note-2 fs16">
+                  details about the seller
+                </span>
+              </div>
+            </div>
+            <ul class="sellers-rate">
+              <li><i class="las la-star "></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+             
+            </ul>
+          </div>
+          <div class="seller-row">
+            <div class="seller-details">
+              <div class="pink-block">
+                <span class="seller-no">
+                  #3
+                </span>
+              </div>
+              <div class="seller-detail-text">
+                <h2 class="hotel-name-2 fs22 mb5">
+                  اسم التاجر
+                </h2>
+                <span class="hotel-note-2 fs16 mb5">
+                 333 طلب
+                </span>
+                <span class="hotel-note-2 fs16">
+                  details about the seller
+                </span>
+              </div>
+            </div>
+            <ul class="sellers-rate">
+              <li><i class="las la-star "></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+             
+            </ul>
+          </div>
+          <div class="seller-row">
+            <div class="seller-details">
+              <div class="pink-block">
+                <span class="seller-no">
+                  #4
+                </span>
+              </div>
+              <div class="seller-detail-text">
+                <h2 class="hotel-name-2 fs22 mb5">
+                  اسم التاجر
+                </h2>
+                <span class="hotel-note-2 fs16 mb5">
+                 333 طلب
+                </span>
+                <span class="hotel-note-2 fs16">
+                  details about the seller
+                </span>
+              </div>
+            </div>
+            <ul class="sellers-rate">
+              <li><i class="las la-star "></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+              <li><i class="las la-star gold"></i></li>
+             
+            </ul>
+          </div>
+            </div>
+        
+       </div>
+      
+     </div>
+   </div>
+ </div>
+ <button type="button" class="send-btn " data-toggle="modal" data-target="#exampleModalCenter2">
+  التجار المحظورة
+  </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered seller-modal" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                
+                  <h5 class="modal-title sellers-title" id="exampleModalLongTitle2">
+                   <img src="images/sellers/02.png" alt="star">
+                   التجار المحظورة
+                 </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <div class="sellers-div">
+                   
+                   <div class="seller-row">
+                     <div class="seller-details">
+                       <div class="pink-block">
+                         <span class="seller-no">
+                           #1
+                         </span>
+                       </div>
+                       <div class="seller-detail-text">
+                         <h2 class="hotel-name-2 fs22 mb5">
+                           اسم التاجر
+                         </h2>
+                         <span class="hotel-note-2 fs16 mb5">
+                          333 طلب
+                         </span>
+                         <span class="hotel-note-2 fs16">
+                           details about the seller
+                         </span>
+                       </div>
+                     </div>
+                     <ul class="sellers-rate">
+                       <li><i class="las la-star "></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                      
+                     </ul>
+                   </div>
+                   <div class="seller-row">
+                     <div class="seller-details">
+                       <div class="pink-block">
+                         <span class="seller-no">
+                           #2
+                         </span>
+                       </div>
+                       <div class="seller-detail-text">
+                         <h2 class="hotel-name-2 fs22 mb5">
+                           اسم التاجر
+                         </h2>
+                         <span class="hotel-note-2 fs16 mb5">
+                          333 طلب
+                         </span>
+                         <span class="hotel-note-2 fs16">
+                           details about the seller
+                         </span>
+                       </div>
+                     </div>
+                     <ul class="sellers-rate">
+                       <li><i class="las la-star "></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                      
+                     </ul>
+                   </div>
+                   <div class="seller-row">
+                     <div class="seller-details">
+                       <div class="pink-block">
+                         <span class="seller-no">
+                           #3
+                         </span>
+                       </div>
+                       <div class="seller-detail-text">
+                         <h2 class="hotel-name-2 fs22 mb5">
+                           اسم التاجر
+                         </h2>
+                         <span class="hotel-note-2 fs16 mb5">
+                          333 طلب
+                         </span>
+                         <span class="hotel-note-2 fs16">
+                           details about the seller
+                         </span>
+                       </div>
+                     </div>
+                     <ul class="sellers-rate">
+                       <li><i class="las la-star "></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                      
+                     </ul>
+                   </div>
+                   <div class="seller-row">
+                     <div class="seller-details">
+                       <div class="pink-block">
+                         <span class="seller-no">
+                           #4
+                         </span>
+                       </div>
+                       <div class="seller-detail-text">
+                         <h2 class="hotel-name-2 fs22 mb5">
+                           اسم التاجر
+                         </h2>
+                         <span class="hotel-note-2 fs16 mb5">
+                          333 طلب
+                         </span>
+                         <span class="hotel-note-2 fs16">
+                           details about the seller
+                         </span>
+                       </div>
+                     </div>
+                     <ul class="sellers-rate">
+                       <li><i class="las la-star "></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                       <li><i class="las la-star gold"></i></li>
+                      
+                     </ul>
+                   </div>
+                     </div>
+                 
+                </div>
+               
+              </div>
+            </div>
+          </div>
  
   
      

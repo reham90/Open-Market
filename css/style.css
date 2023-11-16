@@ -1114,6 +1114,15 @@ font-size: 37px;
   text-align: start;
   
 }
+.seller-modal{
+  max-width: 700px;
+}
+.fs24{
+  font-size: 24px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
  .table-striped tbody tr:nth-of-type(odd) {
   background-color: #fff;
 }
@@ -1149,8 +1158,8 @@ margin-inline-end: 16px;
 .datee{
   color: var(--main-color);
   display: flex;
-  font-size: 24px;
-  font-family: Simplified Arabic;
+  font-size: 18px;
+  
 }
 .msg-block{
   display: flex;
@@ -1170,9 +1179,9 @@ margin-inline-end: 16px;
 height: 80px;
 border-radius: 25px;
 background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #E9BF2C;
-font-family: Simplified Arabic;
-font-size: 24px;
-font-weight: 700;
+font-family: "NeoSansArabicMedium";
+font-size: 22px;
+
 box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
 }
 .floating-chat.enter:hover {
@@ -1484,7 +1493,7 @@ box-shadow: -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset;
 .notification-block p{
   margin: 0;
     color: var(--main-color);
-    font-family: Simplified Arabic;
+  
     line-height: 1.75;
     font-size: 18px;
 }
