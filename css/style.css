@@ -1577,9 +1577,19 @@ font-size: 20px;
   header{
     width: 100%;
   }
+  .modal-title{
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
   .top-header{
     width: 100%;
     min-height: auto;
+  }
+  .modal-headerr{
+    flex-wrap: wrap;
+  }
+  .modal-header .send-btn{
+   order: 1;
   }
   .my-acc-blocks{
     gap: 30px 0;
