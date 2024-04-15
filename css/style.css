@@ -484,7 +484,7 @@ font-weight: 600;
 }
 .days-tabs .nav-link p{
   color: var(--main-color);
- 
+ text-transform: capitalize;
   font-size: 12px;
   margin: 0;
 }
@@ -1565,6 +1565,16 @@ font-size: 20px;
 .acc-note i{
   font-size: 24px;
   margin-inline-end: 5px;
+}
+.language{
+  background-color: transparent !important;
+}
+.language a{
+  color: var(--main-color);
+  transition: 0.5s;
+}
+.language a:hover{
+  color: var(--main-hover);
 }
 /*                                 recieve-offers                                  */
 

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="lr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>open market / recieve-offers</title>
+    <title>open market / new order</title>
     
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/fonts.css" />
@@ -45,57 +45,57 @@
             <div class="nav-head"></div>
             <ul class="big-menu list-unstyled">
               <li >
-                <a href="index.html" class="menu-link">
+                <a href="index-en.html" class="menu-link">
                   <img src="images/menu-icons/01.png" alt="menu icon">
-                  الصفحة الرئيسية
-                </a>
-              </li>
-              <li >
-                <a href="new-order.html" class="menu-link">
-                  <img src="images/menu-icons/02.png" alt="menu icon">
-                  طلب جديد
+                  home
                 </a>
               </li>
               <li class="active">
-                <a href="recieve-offers.html" class="menu-link">
+                <a href="new-order-en.html" class="menu-link">
+                  <img src="images/menu-icons/02.png" alt="menu icon">
+                  new order
+                </a>
+              </li>
+              <li>
+                <a href="recieve-offers-en.html" class="menu-link">
                   <img src="images/menu-icons/03.png" alt="menu icon">
-                   استقبال العروض 
+                  receive offers
                   </a>
               </li>
               <li>
-                <a href="previous-orders.html" class="menu-link">
+                <a href="previous-orders-en.html" class="menu-link">
                   <img src="images/menu-icons/04.png" alt="menu icon">
-                   طلبات سابقة
+                   previous orders
                   </a>
               </li>
               <li>
-                <a href="sellers-offers.html" class="menu-link"> 
+                <a href="sellers-offers-en.html" class="menu-link"> 
                   <img src="images/menu-icons/05.png" alt="menu icon">
-                  عروض التجار
+                 sellers offers
                 </a>
               </li>
               <li>
-                <a href="messages.html" class="menu-link">
+                <a href="messages-en.html" class="menu-link">
                   <img src="images/menu-icons/06.png" alt="menu icon">
-                   رسائل
+                   messages
                   </a>
               </li>
               <li>
-                <a href="notifications.html" class="menu-link"> 
+                <a href="notifications-en.html" class="menu-link"> 
                   <img src="images/menu-icons/07.png" alt="menu icon">
-                  إشعارات
+                 notifications
                 </a>
               </li>
               <li>
-                <a href="my-account.html" class="menu-link"> 
+                <a href="my-account-en.html" class="menu-link"> 
                   <img src="images/menu-icons/08.png" alt="menu icon">
-                  حسابي
+                  my account
                 </a>
               </li>
               <li>
-                <a href="settings.html" class="menu-link"> 
+                <a href="settings-en.html" class="menu-link"> 
                   <img src="images/menu-icons/09.png" alt="menu icon">
-                  إعدادات
+                 settings
                 </a>
               </li>
             </ul>
@@ -140,8 +140,8 @@
         </a>
       </li>
       <li class="language">
-        <a href="order-details-en.html">
-          English
+        <a href="new-order.html">
+          العربية
         </a>
       </li>
     </ul>
@@ -161,111 +161,86 @@
     </div>
   </div>
   <!-- end-message-bar-->
-  <div class="container">
+ <!-- start sessions-div-->
+ <div class="container">
 
  
- <!-- start sessions-div-->
- <div class="sessions-div bg-baby-blue flex-wrap">
-  <div class="det-title">
-    <h3 class="details-title">
-      تفاصيل العرض
-    </h3>
-  </div>
- 
- 
+ <div class="sessions-div bg-baby-blue">
+  
 <form class="form-flex">
 <div class="form-part">
   <label class="form-label">
-   اسم التاجر
+  item name
   </label>
-  <input type="text" class="form-input" placeholder="عمر هاني منصور" disabled>
+  <input type="text" class="form-input">
   <label class="form-label">
-  رقم التليفون
+   required amount
   </label>
-  <input type="number" class="form-input" placeholder="0100000000" disabled>
+  <input type="text" class="form-input">
   <label class="form-label">
-    اسم الصنف
+  product description
+  </label>
+  <textarea type="text" class=" form-textarea"></textarea>
+  <label class="form-label">
+   recieving date
    </label>
-   <input type="text" class="form-input" placeholder="لحم عجل بتلو" disabled>
+   <input type="date" class="form-input">
    <label class="form-label">
-   الفئة
-   </label>
-   <input type="text" class="form-input" placeholder="لحوم" disabled>
-   <label class="form-label">
-   صور المنتج
-   </label>
-   <ul class="order-photos">
-    <li>
-      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
-    </li>
-    <li>
-      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
-    </li>
-    <li>
-      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
-    </li>
-    <li>
-      <img class="img-fluid" src="images/order-details/01.png" alt="order photo">
-    </li>
-   </ul>
-  
-  
-   
-  
+  add condition
+  </label>
+  <input type="text" class="form-input">
+  <a href="#" class="more">
+    + add more
+  </a>
 </div>
 <div class="form-part">
   <label class="form-label">
-   العنوان
-   </label>
-   <input type="text" class="form-input" placeholder="القاهرة - زهراء مدينة نصر" disabled>
-   <label class="form-label">
-    تاريخ الإستلام
-    </label>
-    <input type="text" class="form-input" placeholder="7 أكتوبر 2023" disabled>
-    <label class="form-label">
-    الكمية
-      </label>
-      <input type="text" class="form-input" placeholder="10 كيلو" disabled>
-  
-      <label class="form-label">
-        وصف المنتج
+   category
+  </label>
+  <select class="form-input">
+<option>choose from list  </option>
+<option>choose from list  </option>
+<option>choose from list  </option>
+<option>choose from list  </option>
+  </select>
+  <label class="form-label">
+ payment type
+  </label>
+  <select class="form-input">
+    <option>choose from list  </option>
+    <option>choose from list  </option>
+    <option>choose from list  </option>
+    <option>choose from list  </option>
+      </select>
+  <label class="form-label">
+   attach photos
+  </label>
+  <div class="upload__box">
+    <div class="upload__btn-box">
+       <label class="upload__btn form-input" id="file" for="customFile">
+       
+       <b class="upload-images">upload file </b>
+       <input type="file"  class="upload__inputfile" id="customFile" >
        </label>
-       <textarea type="text" class=" form-textarea" placeholder="لحم عجل 10 كيلو" disabled></textarea>
- 
- 
-  
-       <div class="order-btns flex-start">
-        <a href="#" class="accept-btn">
-          قبول
-        </a>
-       
-        <button type="button" class="cancel-btn" data-toggle="modal" data-target="#exampleModalCenter">
-         رفض
-        </button>
-        <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">
-          أسباب الرفض
-        </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <input type="text" class="form-input">
-        <button type="submit" class="send-btn">
-           إرسال
-        </button>
-       
-      </div>
-     
     </div>
-  </div>
-</div>
-      </div>
+    <div class="upload__img-wrap"></div>
+ </div>
+  <label class="form-label">
+ attatch file
+   </label>
+   <div class="upload__box">
+    <div class="upload__btn-box">
+       <label class="upload__btn form-input" id="file-2" for="customFile2">
+       
+       <b class="upload-images"> upload file</b>
+       <input type="file"  class="upload__inputfile" id="customFile2" >
+       </label>
+    </div>
+    <div class="upload__img-wrap"></div>
+ </div>
+  <button type="submit" class="send-btn">
+   send
+  </button>
 </div>
 </form>
   </div>
