@@ -341,8 +341,35 @@ margin-bottom: 10px;
   border-radius: 16px;
   margin-inline-end: 24px;
 }
+.login-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.login-title{
+  color: var(--main-color);
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 30px;
+  font-family: "NeoSansArabicBold";
+}
+.photos-section{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:15px;
+ 
+}
+
 .hotel-imgg img{
   width: 100%;
+}
+.photo-name{
+  text-align: center;
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: var(--main-color);
+ display: flex;
+ justify-content: center;
 }
 .hotel-detail{
   display: flex;
@@ -501,6 +528,9 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
+}
+.order-det{
+  border:0 !important;
 }
 .days-tabs .nav-item.show .nav-link span, .days-tabs .nav-link.active span{
 color: #fff;
@@ -680,6 +710,23 @@ margin-bottom: 48px;
   color: var(--main-color);
   font-size: 24px;
   
+}
+.forget-password{
+  color: var(--main-color);
+  display: flex;
+  text-align: start;
+  margin: 0 0 20px;
+  transition: 0.5s;
+}
+.forget-password:hover{
+  color: var(--main-hover);
+}
+.forget-password:not(:last-child){
+  margin-inline-end: 40px;
+}
+.form-links{
+  display: flex;
+  justify-content: space-between;
 }
 .form-input{
   width: 100%;
@@ -1806,6 +1853,9 @@ font-size: 20px;
   .floating-chat{
     width: 215px;
   }
+  .photos-section{
+    margin-inline-end: 30px;
+  }
 
   .hotel-detail-text{
     width: auto;
@@ -1863,12 +1913,27 @@ font-size: 20px;
   body {
     position: relative;
   }
-
+  .login-content{
+    flex-wrap: wrap;
+  }
 .form-flex{
   flex-wrap: wrap;
   gap: 0;
   width: 100%;
  
+}
+.photos-section{
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 50px;
+  order: 2;
+  width: 100%;
+  justify-content: center;
+}
+.login-form{
+  width: 100%;
+}
+.photo-block{
+  text-align: center;
 }
 .orders-tabs .nav-item.show .nav-link, .orders-tabs .nav-link.active{
   width: 170px;
@@ -2207,5 +2272,12 @@ font-size: 20px;
  
   .seller-det {
     flex-direction: row;
+}
+.login-content{
+  flex-wrap: nowrap;
+}
+.photos-section{
+  order:0;
+  margin-inline-end: 30px;
 }
 }

@@ -172,19 +172,22 @@
   <label class="form-label">
    اسم التاجر
   </label>
-  <input type="text" class="form-input" placeholder="عمر هاني منصور" disabled>
+ <p class="form-input order-det">
+عمر هاني منصور
+ </p>
   <label class="form-label">
   رقم التليفون
   </label>
-  <input type="number" class="form-input" placeholder="0100000000" disabled>
+  <p class="form-input order-det">
+  0100000000000
+     </p>
   <label class="form-label">
     اسم الصنف
    </label>
-   <input type="text" class="form-input" placeholder="لحم عجل بتلو" disabled>
-   <label class="form-label">
-   الفئة
-   </label>
-   <input type="text" class="form-input" placeholder="لحوم" disabled>
+   <p class="form-input order-det">
+   لحم عجل بتلو
+     </p>
+  
    <label class="form-label">
    صور المنتج
    </label>
@@ -211,20 +214,28 @@
   <label class="form-label">
    العنوان
    </label>
-   <input type="text" class="form-input" placeholder="القاهرة - زهراء مدينة نصر" disabled>
+   <p class="form-input order-det">
+   القاهرة
+     </p>
    <label class="form-label">
-    تاريخ الإستلام
+    تاريخ التسليم
     </label>
-    <input type="text" class="form-input" placeholder="7 أكتوبر 2023" disabled>
+    <p class="form-input order-det">
+     07 أكتوبر 2023
+       </p>
     <label class="form-label">
     الكمية
       </label>
-      <input type="text" class="form-input" placeholder="10 كيلو" disabled>
+      <p class="form-input order-det">
+      10 كيلو
+         </p>
   
       <label class="form-label">
         وصف المنتج
        </label>
-       <textarea type="text" class=" form-textarea" placeholder="لحم عجل 10 كيلو" disabled></textarea>
+       <p class="form-input order-det">
+       لحم عجل بتلو 10 كيلو
+         </p>
  
  
   
@@ -249,18 +260,10 @@
         </button>
       </div>
       <div class="modal-body">
-        <div class="check-div">
-          <input type="checkbox" id="accept" name="accept" value="" class="check">
-          لم أعد أحتاج إليه
-        </div>
-        <div class="check-div">
-          <input type="checkbox" id="accept" name="accept" value="" class="check">
-         تم الطلب بالخطأ
-        </div>
-        <div class="check-div">
-          <input type="checkbox" id="accept" name="accept" value="" class="check">
-        خطأ من التاجر
-        </div>
+        <input type="text" class="form-input">
+        <button type="submit" class="send-btn">
+           إرسال
+        </button>
        
       </div>
      
@@ -272,7 +275,30 @@
 </form>
   </div>
  
-  
+ 
+
+
+ 
+  <div class="client-answer">
+    <div class="det-title">
+      <h3 class="details-title">
+       الرد على الطلب
+      </h3>
+    </div>
+
+    <label class="form-label">
+      تعديل الكمية
+        </label>
+       <input type="text" class="form-input">
+
+       <label class="form-label">
+        تعديل السعر
+          </label>
+         <input type="text" class="form-input">
+<button type="submit" class="send-btn">
+  إرسال
+</button>
+  </div>
 </div>
   
 
